@@ -28,6 +28,9 @@ If you are not using a popup but have a login form embedded on a page, you can a
 
    ```javascript
    $(document).on('elementor/popup/show', function (event, id, instance) {
+       
+   });
+   
 2. Replace this with code that directly targets the login form on the page, such as:
    ```javascript
    $(document).ready(function () {
@@ -37,6 +40,8 @@ If you are not using a popup but have a login form embedded on a page, you can a
             // Handle AJAX login here
         });
     }
+});
+
    
 This will ensure that the login form submission is handled via AJAX even when the login form is embedded directly on a page and not inside a popup.
 
@@ -44,8 +49,10 @@ This will ensure that the login form submission is handled via AJAX even when th
 
 In the JavaScript section of the plugin, you will see a condition checking for specific popup IDs:
 
-```javascript
-if (id === 1734 || id === 1723) {
+
+   if (id === 1734 || id === 1723) {
+   
+}
 
 ### To customize this for your own popups:
 - Open the Elementor editor and edit the login popup.
@@ -54,8 +61,9 @@ if (id === 1734 || id === 1723) {
 
 For example, if your popup ID is 1750, update the code like this:
 
-```javascript
 if (id === 1750) {
+
+}
 
 ## Usage
 ### Once the plugin is activated:
@@ -65,4 +73,4 @@ if (id === 1750) {
 
 ## Author
 Ilham Mohomed
-https://www.linkedin.com/in/ilham-mohomed/
+[https://www.linkedin.com/in/ilham-mohomed/](https://www.linkedin.com/in/ilham-mohomed/)
