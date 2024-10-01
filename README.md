@@ -53,9 +53,9 @@ In the JavaScript section of the plugin, you will see a condition checking for s
 
     ```javascript
     if (id === 1734 || id === 1723) {
-        // Your code here
+        
     }
-   
+    ```
 
 To customize this for your own popups:
 
@@ -67,9 +67,9 @@ For example, if your popup ID is `1750`, update the code like this:
 
     ```javascript
     if (id === 1750) {
-        // Your code here
+      
     }
-   
+    ```
 
 ## Usage
 Once the plugin is activated:
