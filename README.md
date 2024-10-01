@@ -49,7 +49,8 @@ This will ensure that the login form submission is handled via AJAX even when th
 
 ### How to Change the Popup ID
 
-In the JavaScript section of the plugin, you will see a condition checking for specific popup IDs:
+* In the JavaScript section of the plugin, you will see a condition checking for specific popup IDs:
+
 
     ```javascript
     if (id === 1734 || id === 1723) {
@@ -63,7 +64,7 @@ To customize this for your own popups:
 - Note down the popup ID from the URL (the ID will be visible in the popup's URL when editing it).
 - Replace the IDs in the JavaScript with your own popup IDs.
 
-For example, if your popup ID is `1750`, update the code like this:
+* For example, if your popup ID is `1750`, update the code like this:
 
     ```javascript
     if (id === 1750) {
